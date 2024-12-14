@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body Styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            background-color: #3a628f;
+            color: white;
+            padding: 2rem 0;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-style: bold;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Section Styles */
+        section {
+            padding: 2rem;
+            background-color: white;
+            max-width: 1200px;
+            margin: 0 auto;
+            border-bottom: 1px solid #ddd;
+            text-align: center;
+        }
+
+        section:last-of-type {
+            border-bottom: none;
+        }
+
+        h2 {
+            color: #333;
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+            text-align: justify;
+        }
+
+        /* About Section */
+        .profile-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            display: block;
+            margin: 1rem auto;
+            border: 4px solid #3a628f;
+        }
+
+        /* Skills Section */
+        ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        ul li {
+            background: #f4f4f4;
+            margin: 0.5rem;
+            padding: 0.5rem 1rem;
+            border-left: 4px solid #3a628f;
+            border-radius: 4px;
+        }
+
+        /* Projects Section */
+        .project {
+            margin-bottom: 1.5rem;
+        }
+
+        .project img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0.5rem auto;
+            border: 2px solid #ddd;
+            border-radius: 4px;
+        }
+
+        .project h3 {
+            color: #3a628f;
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Resume Section */
+        #resume a {
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            background-color: #3a628f;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            margin-top: 1rem;
+            text-align: center;
+        }
+
+        #resume a:hover {
+            background-color: #2b4d6d;
+        }
+
+        /* Contact Section */
+        #contact p {
+            margin: 0.5rem 0;
+            text-align: center;
+        }
+
+        #contact a {
+            color: #3a628f;
+            text-decoration: none;
+        }
+
+        #contact a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            background-color: #1b82cb;
+            color: white;
+            padding: 1rem 0;
+        }
+
+        footer a {
+            color: #f4f4f4;
+            margin: 0 0.5rem;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Pratiksha Hegade</h1>
+        <p style="font-size: 16px; font-weight: bold;">
+            I am Pratiksha Hegade, from Indapur. Currently, I am pursuing an MCA degree from SIBAR college Pune.
+        </p>
+            </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I have completed my BBA(CA) Degree from VP College Baramati in 2024 with an 8.56 CGPA. My strengths include being hardworking and having excellent time management skills. 
+            I am passionate about learning new technologies and continuously enhancing my skills. I enjoy tackling challenges and collaborating with others to achieve shared goals. 
+            I am highly interested in web development and enjoy creating user-friendly and visually appealing websites. 
+            In my free time, I like reading about emerging tech trends and working on personal development projects.
+        </p>
+                <img src="images.jpg" alt="Your Image" class="profile-image">
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Java</li>
+            <li>Python</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>MySQL</li>
+            <li>Django</li>
+            <li>PHP</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>1.Electricity Billing System</h3>
+            <img src="elec.jpg" alt="Electricity Billing System">
+            <p style="text-align: center;">
+                It is a desktop-based project built in Java.<br>
+                This application serves as an electricity billing system.
+            </p>
+              </div>
+              <div style="text-align: left;">
+                <h3 style="margin: 0;">2.ChatBot using AI</h3>
+                <img src="botjpg.jpg" alt="ChatBot using AI" style="display: block; margin: 0;">
+                <p style="margin: 0;">This is a desktop-based project developed using HTML, CSS, JavaScript, and API integrations.<br>It provides chatbot functionalities.</p>
+            </div>
+            
+        <div class="project">
+            <h3>E-Commerce Website</h3>
+            <img src="efruit.jpg" alt="E-Commerce Website">
+            <p style="text-align: center;">Developed in Python and Django, this project serves as a robust e-commerce platform.<br>Technologies: HTML, CSS, Python, Django.</p>
+        </div>
+        <div style="text-align:left;">
+            <h3>Fruit Shop Management System</h3>
+            <img src="fruit.jpg" alt="Fruit Shop Management System">
+            <p style="text-align:left">This website is a full-stack application utilizing MySQL as the database.<br>Technologies: PHP, HTML, CSS, JavaScript.</p>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <h2>Resume</h2>
+        <a href="resume.pdf" download>See My Resume</a>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:pratikshahegade1001@gmail.com">pratikshahegade1001@gmail.com</a></p>
+        <p>Phone: +1234567890</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p style="text-align:center;">&copy; 2024 Pratiksha Hegade</p>
+        <pstyle="text-align:center;"><a href="https://www.linkedin.com/in/pratiksha-hegade-2051b3257">LinkedIn</a> | <a href="https://github.com">GitHub</a></p>
+    </footer>
+</body>
+</html>
